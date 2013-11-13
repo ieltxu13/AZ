@@ -1,0 +1,39 @@
+body {
+   background: url('../img/binding_dark.png');
+   background-repeat: repeat;
+}
+
+header{
+    margin-top: 30px;
+    background: url('../img/grey_wash_wall.png');
+    background-repeat: repeat;
+    clear: both;
+    -webkit-box-shadow: 1px 9px 3px -3px #000;
+    -moz-box-shadow: 1px 9px 3px -3px #000;
+    box-shadow: 1px 9px 3px -3px #000;
+}
+
+
+
+@font-face {
+   font-family: "BudHand";
+   font-style: normal;
+   font-weight: normal;
+   src: url("../fonts/BUDHAND2/BUDHAND2.woff") format("woff"), url("../fonts/BUDHAND2/BUDHAND2.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: "JPHST";
+
+   font-style: normal;
+   font-weight: normal;
+   src: local("?"), url("../fonts/JPHST/JPHST.woff") format("woff"), url("../fonts/JPHST/JPHST.ttf") format("truetype");
+}
+
+@font-face {
+   font-family: "Bush Script Std";
+
+   font-style: normal;
+   font-weight: normal;
+   src: local("?"), url("../fonts/Brush Script Std/Brush Script Std.woff") format("woff"), url("../fonts/Brush Script Std/Brush Script Std.ttf") format("truetype");
+}

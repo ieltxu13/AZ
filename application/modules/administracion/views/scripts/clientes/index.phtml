@@ -1,0 +1,25 @@
+
+<div class="col-md-2">
+    
+</div>
+
+<div class="col-md-10">
+    <br /><br />
+    <table class="table">
+        <tr>
+            <th>Nombre</th>
+            <th>Email</th>
+            <th>Telefonos</th>
+        </tr>
+        <?php foreach ($this->clientes as $cliente) : ?>
+        <tr>
+            <td><?php echo $cliente->getNombre()?></td>
+            <td><?php echo $cliente->getEmail()?></td>
+            <td><?php echo $cliente->getTelefonos()?></td>
+            <td><a href="<?php echo $this->url(array('module'=>'administracion','controller'=>'proyectos','action'=>'nuevo','id'=>$cliente->getId()))?>">NuevoProyecto</a></td>
+        </tr>
+        <?php endforeach; ?>
+    </table>
+    <a href="<?php echo $this->url(array('module'=>'administracion','controller'=>'clientes','action'=>'nuevo'))?>" class="btn btn-primary">Nuevo</a>
+    </div>
+</div>
